@@ -32,7 +32,7 @@ requirements:
     # The ones below are not listed in the metadata!
     - pypandoc
   run:
-    - python {{ python_min }}
+    - python >={{ python_min }}
     - platformdirs
     - chardet >=3.0.4
     - colorama  # [win]
@@ -87,6 +87,7 @@ test:
     - git-annex-remote-ora --help
     - git-credential-datalad --help
   requires:
+    - python {{ python_min }}
     - pip
     # The ones below are not listed in the metadata!
     - BeautifulSoup4
