@@ -45,7 +45,7 @@ requirements:
     - tqdm >=4.32.0
     # NB: remove typing-extensions when droppping py310!
     - typing-extensions >=4.0.0
-    - annexremote
+    - annexremote  # [linux]
     - looseversion
     - boto3
     - keyring >=20.0,!=23.9.0
