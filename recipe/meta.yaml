@@ -8,6 +8,8 @@ package:
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 4d9f7ffe7a8a7b7eced97ba3d2d2257d527d4218c73ddf7e74eb343cf970d925
+  patches:
+    - annexremote_linux.patch
 
 build:
   number: 2

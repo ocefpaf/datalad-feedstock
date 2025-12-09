@@ -1,0 +1,11 @@
+--- datalad-1.2.3.orig/pyproject.toml	2025-10-30 09:00:09.000000000 -0300
++++ datalad-1.2.3/pyproject.toml	2025-12-09 17:16:57.781588587 -0300
+@@ -20,7 +20,7 @@
+     "patool>=1.7",
+     "tqdm>=4.32.0",
+     "typing_extensions>=4.0.0; python_version < '3.11'",
+-    "annexremote",
++    "annexremote; platform_system=='Linux'",
+     "looseversion",
+     # downloaders
+     "boto3",
