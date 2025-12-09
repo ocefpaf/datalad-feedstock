@@ -102,18 +102,17 @@ test:
     - tox.ini
 
 about:
-  home: http://datalad.org
+  home: https://datalad.org
   license: MIT
   license_file: COPYING
   summary: Distributed system for joint management of code, data, and their relationship
   description: |
-    DataLad aims to make data management and data distribution more accessible.
-    To do that it stands on the shoulders of Git and Git-annex to deliver a
-    decentralized system for data exchange. This includes automated ingestion of
-    data from online portals, and exposing it in readily usable form as Git(-annex)
-    repositories, so-called datasets. The actual data storage and permission
-    management, however, remains with the original data providers.
-  doc_url: http://datalad.readthedocs.io/
+    DataLad's purpose is to make data management and data distribution more accessible.
+    To do so, it stands on the shoulders of Git and Git-annex to deliver a decentralized
+    system for data exchange. This includes automated ingestion of data from online portals and
+    exposing it in readily usable form as Git(-annex) repositories - or datasets. However,
+    the actual data storage and permission management remains with the original data provider(s).
+  doc_url: https://datalad.readthedocs.io/
   dev_url: https://github.com/datalad/datalad
 
 extra:
