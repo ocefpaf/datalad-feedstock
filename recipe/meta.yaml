@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 48f19d3e4fc7b2725240e6c47d6710f3bc46ad6b42455ff76dd3f6e34226f39f
-  patches:
-    - annexremote_linux.patch
 
 build:
   number: 0
@@ -47,7 +45,7 @@ requirements:
     - tqdm >=4.32.0
     # NB: remove typing-extensions when droppping py310!
     - typing-extensions >=4.0.0
-    - annexremote  # [linux]
+    - annexremote
     - looseversion
     - boto3
     - keyring >=20.0,!=23.9.0
